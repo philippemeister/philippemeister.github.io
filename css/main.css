@@ -41,3 +41,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.about-image {
+    float: right;
+        width: 300px; 
+}

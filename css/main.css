@@ -10,7 +10,7 @@ nav ul, footer ul, {
     font-weight: bold;
 }
 
-#cv ul li {
+body.cv ul li {
       font-family:'Open Sans', Helvetica, Arial, 'Sans-Serif';
     list-style: none;
 }

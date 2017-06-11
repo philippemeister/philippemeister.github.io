@@ -42,7 +42,7 @@ ul.posts li {
     list-style: none;
 }
 
-.about-image {
+#about-image {
     float: right;
         width: 300px; 
 }

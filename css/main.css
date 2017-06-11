@@ -12,7 +12,7 @@ nav ul, footer ul, {
 
 body ul li {
       font-family:'Open Sans', Helvetica, Arial, 'Sans-Serif';
-    padding: 0px;
+    padding-left: 2%;
     list-style: none;
 }
     

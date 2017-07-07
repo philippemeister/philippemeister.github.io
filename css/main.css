@@ -48,3 +48,7 @@ img.about-image {
     float: right;
     width: 350px; 
 }
+
+.site-under-construction {
+    color: red; 
+} 

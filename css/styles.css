@@ -210,4 +210,4 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover{border-color:#bbb!important}
 .w3-navigation-ul{list-style-type:none;overflow:hidden;}
 .w3-navigation-li{float:left; margin-left:1em; margin-right:1em;}
-.w3-navigation-a{display:block;padding:2em;underline:none;}
+.w3-navigation-a{display:block;padding:2em;text-decoration:none;}

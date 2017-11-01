@@ -1,238 +1,142 @@
+<!DOCTYPE html>
 <html>
-<body> 
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://canvas.iastate.edu/courses/3421/files/3409820/download" alt="Banner_MIS_533.png" data-api-endpoint="https://canvas.iastate.edu/api/v1/courses/3421/files/3409820" data-api-returntype="File" /></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><a class="Button Button--secondary" title="Course Syllabus" href="https://canvas.iastate.edu/courses/3421/assignments/syllabus" data-api-endpoint="https://canvas.iastate.edu/api/v1/courses/3421/pages/mis-533-calendar" data-api-returntype="Page">Syllabus</a> &nbsp;&nbsp; <a class="Button Button--secondary" title="MIS 533 Schedule" href="https://canvas.iastate.edu/courses/3421/pages/mis-533-schedule" data-api-endpoint="https://canvas.iastate.edu/api/v1/courses/3421/pages/mis-533-schedule" data-api-returntype="Page">Schedule</a></p>
-<p>&nbsp;</p>
-<div id="styleguide-tabs-demo-regular" class="enhanceable_content tabs">
-<ul>
-<li><span style="font-size: 14pt;"><a href="#fragment-1">Meet Your Instructor</a></span></li>
-<li><span style="font-size: 14pt;"><a href="#fragment-2">Course Navigation</a></span></li>
-<li><span style="font-size: 14pt;"><a href="#fragment-3">Syllabus Overview</a></span></li>
-<li><span style="font-size: 14pt;"><a href="#fragment-4">Technical Requirements</a></span></li>
-<li><span style="font-size: 14pt;"><a href="#fragment-5">Support and Services</a></span></li>
-<li><span style="font-size: 14pt;"><a href="#fragment-6">Successful Online Learner</a></span></li>
-<li><span style="font-size: 14pt;"><a href="#fragment-7">Help</a></span></li>
-</ul>
-<div id="fragment-1">
-<h3>Meet Your Instructor</h3>
-<hr /><a name="#Top"></a>
-<div class="content-box">
-<div class="grid-row top-xs">
-<div class="col-xs-3">
-<div class="styleguide-section__grid-demo-element"><img src="https://canvas.iastate.edu/courses/3421/files/3409819/download" alt="jrulmer.jpg" width="200" height="200" data-api-endpoint="https://canvas.iastate.edu/api/v1/courses/3421/files/3409819" data-api-returntype="File" /></div>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
+  </div>
 </div>
-<div class="col-xs-5">
-<div class="styleguide-section__grid-demo-element">
-<h4>Jacquelyn Rees Ulmer, PhD</h4>
-<p>Email: <a href="mailto:jrulmer@iastate.edu">jrulmer@iastate.edu</a></p>
-<p>Office: 2340 Gerdin</p>
-<p>Office Hours: Online office hours by appointment only</p>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
 </div>
-</div>
-</div>
-</div>
-<p>&nbsp;</p>
-<div style="text-align: center; width: 90%;"><iframe src="https://player.vimeo.com/video/230453471" width="90%" height="380" allowfullscreen="allowfullscreen"></iframe></div>
-<p>Jackie Rees Ulmer is currently the chair of the Department of Supply Chain and Information Systems in the College of Business at Iowa State University. She is also a professor of management information systems (MIS). Previously, she was an associate professor of management information systems in the Krannert Graduate School of Management at Purdue University. She earned her Ph.D. in Decision and Information Sciences from the Warrington College of Business at the University of Florida in 1998. Her research interests include information security risk management, privacy, machine learning, particularly text mining and evolutionary computation. She has published in journals such as Communications of the ACM, Decision Sciences, Decision Support Systems, European Journal of Operational Research, Information Systems Research, INFORMS Journal on Computing, and Management Information Systems Quarterly. She teaches courses in Information Security, Information Systems Analysis, Principles of Management Information Systems, Java Programming, Database Management Systems, and Data Mining.</p>
-<a href="#Top">Back to Top</a></div>
-<div id="fragment-2">
-<h3>Course Navigation</h3>
-<hr />
-<div style="text-align: center; width: 90%;"><iframe src="https://player.vimeo.com/video/230455248" width="90%" height="380" allowfullscreen="allowfullscreen"></iframe></div>
-</div>
-<div id="fragment-3">
-<h3>Syllabus Overview</h3>
-<hr />
-<p><a class="instructure_file_link instructure_scribd_file" title="MIS 533 Fall 2017 Syllabus.docx" href="https://canvas.iastate.edu/courses/3421/files/3413200/download?wrap=1" data-api-endpoint="https://canvas.iastate.edu/api/v1/courses/3421/files/3413200" data-api-returntype="File">MIS 533 Fall 2017 Syllabus.docx</a></p>
-<div style="text-align: center; width: 90%;"><iframe src="https://player.vimeo.com/video/230467756" width="90%" height="380" allowfullscreen="allowfullscreen"></iframe></div>
-</div>
-<div id="fragment-4">
-<h3>Technical Requirements</h3>
-<hr />
-<div class="content-box">
-<div class="grid-row top-xs">
-<div class="col-xs-5">
-<div class="styleguide-section__grid-demo-element">
-<h3><a href="https://community.canvaslms.com/docs/DOC-10721-67952720328">Basic System Requirements</a></h3>
-<p>For the best online learning experience, you will need:</p>
-<h4>Screen Size</h4>
-<p>Canvas is best viewed at a minimum of 800 X 600, which is the average size of a notebook computer.</p>
-<p>If you want to view Canvas on a device with a smaller screen, we recommend using the Canvas mobile app.</p>
-<h4>Operating Systems</h4>
-<ul>
-<li>Windows 7 and newer (users on Windows 10 need to download the <a href="https://www.microsoft.com/en-us/software-download/windows10">Windows 10 Anniversary Update</a> to submit Canvas assignments)</li>
-<li>MAC OSX 10.6 and newer</li>
-<li>Linux - chromeOS</li>
-</ul>
-<h4>Mobile Operating System Native App Support</h4>
-<ul>
-<li>iOS 7 and newer (versions vary by device)</li>
-<li>Android 4.2 and newer</li>
-</ul>
-<h4>Computer Speed and Processor</h4>
-<ul>
-<li>Use a computer 5 years old or newer when possible</li>
-<li>1GB of RAM</li>
-<li>2GHz processor</li>
-</ul>
-<h4>Internet Speed</h4>
-<ul>
-<li>Along with compatibility and web standards, Canvas has been carefully crafted to accommodate low bandwidth environments.</li>
-<li>Minimum of 512kbps</li>
-</ul>
-<h4>Screen Readers</h4>
-<ul>
-<li>MAC: <a href="https://www.apple.com/accessibility/mac/vision/">VoiceOver</a> (latest version for Safari)</li>
-<li>PC: <a href="http://www.freedomscientific.com/Products/Blindness/JAWS">JAWS</a> (latest version for Internet Explorer)</li>
-<li>PC: <a href="https://www.nvaccess.org/">NVDA</a> (latest version for Firefox)</li>
-<li>There is no screen reader support for Canvas in Chrome at this moment.</li>
-</ul>
-</div>
-</div>
-<div class="col-xs-5">
-<div class="styleguide-section__grid-demo-element">
-<h3><a href="https://community.canvaslms.com/docs/DOC-10720">Supported Browsers</a></h3>
-<p>Canvas supports the current and first previous major releases of the following browsers:</p>
-<ul>
-<li>Internet Explorer 11 and Edge 39 and 40 (<em>Windows</em> only - please make sure your operating system is also current as noted under the computer specifications; you may need to download the Windows 10 Anniversary Update to submit Canvas assignments)</li>
-<li>Safari 9 and 10 (MAC only)</li>
-<li>Chrome 58 and 59</li>
-<li>Firefox 53 and 54 (<a href="https://www.mozilla.org/en-US/firefox/organizations/">Extended Releases</a> are not supported)</li>
-<li>Flash 25 and 26 (used for recording or viewing audio/video and uploading files)</li>
-<li>Respondus Lockdown Browser (supporting the latest <a href="https://www.respondus.com/products/lockdown-browser/requirements.shtml">system requirements</a>)</li>
-</ul>
-<p>It is highly recommended updating to the most current version of your preferred browser.</p>
-<p>Your browser will notify you if there is a new version available.</p>
-<p>Some supported browsers may still produce a banner stating <em>Your browser does not meet the minimum requirements for Canvas</em>.</p>
-<p>If you have upgraded your browser but you are still seeing the warning banner, try logging out of Canvas and deleting your browser cookies.</p>
-<h4>Plug-ins and Browser Updates</h4>
-<p>Download a plug-in below if required to access course content.</p>
-<ul>
-<li><a href="https://get.adobe.com/flashplayer/">Adobe Flash</a></li>
-<li><a href="https://support.apple.com/downloads/quicktime">QuickTime</a></li>
-<li><a href="http://www.real.com/">RealPlayer</a></li>
-<li><a href="http://silverlight.onfreedownload.com/mac/free-download/?lp=adwords&amp;tg=us&amp;kw=1&amp;mt=e&amp;ad=42143626013&amp;pl=&amp;ds=s&amp;gclid=CKzu5-qJh8ECFWELMgodrygACg">Silverlight</a></li>
-<li><a href="https://support.microsoft.com/en-us/help/18612/windows-media-player">Windows Media Player</a></li>
-</ul>
-<p>If your browser does not update automatically, you can download your preferred browser in the browser's download page:</p>
-<ul>
-<li><a href="https://www.microsoft.com/en-us/download/internet-explorer.aspx">Internet Explorer</a> and <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Microsoft Edge</a></li>
-<li><a href="https://support.apple.com/en-us/HT204416">Safari</a></li>
-<li><a href="https://www.google.com/intl/en/chrome/browser/desktop/index.html">Chrome</a></li>
-<li><a href="https://www.mozilla.org/en-US/firefox/">Firefox</a></li>
-<li><a href="http://www.respondus.com/download/">Respondus Lockdown Broswer</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="fragment-5">
-<h3>Support and Services</h3>
-<hr />
-<h4>Technology Services</h4>
-<ul>
-<li><a href="https://www.it.iastate.edu/foryou/students/">Information Technology Services for Students</a></li>
-</ul>
-<h4>Academic Resources</h4>
-<ul>
-<li><a href="http://www.studentconduct.dso.iastate.edu/academic/misconduct.html">Academic Misconduct</a> describes the University policy regarding academic dishonesty and the consequences.
-<ul>
-<li><a href="http://www.studentconduct.dso.iastate.edu/academic/students">Resources for Students Related to Academic Misconduct</a></li>
-<li><a href="http://instr.iastate.libguides.com/c.php?g=49334">Understanding Plagiarism</a></li>
-</ul>
-</li>
-<li><a href="http://www.asc.dso.iastate.edu/resources">Academic Resources</a> provides many services and programs to help students succeed.</li>
-<li><a href="http://www.asc.dso.iastate.edu/resources/online">Online and Distance Education</a></li>
-</ul>
-<h4>Student Disability</h4>
-<p><a href="https://www.sdr.dso.iastate.edu/">Student Disability Resources</a> is a unit in the Dean of Students Office responsible for coordinating reasonable accommodations for ISU students with documented disabilities.</p>
-<p style="padding-left: 30px;">Phone: 515-294-7220</p>
-<p style="padding-left: 30px;">Email: <a href="mailto:disabilityresources@iastate.edu">disabilityresources@iastate.edu</a></p>
-<h4>ISU Library</h4>
-<ul>
-<li><a href="http://www.lib.iastate.edu/">e-Library</a></li>
-<li><a href="http://instr.iastate.libguides.com/c.php?g=49513">Distance Learning Library Support</a></li>
-<li><a href="http://www.lib.iastate.edu/courses-startform/6176">Library Course Reserves</a></li>
-</ul>
-<p>To login from off-campus: When you're off ISU campus and attempt to access one of our subscription databases or licensed full text resources (such as journal articles, ebooks, and journals) from the <a href="http://www.lib.iastate.edu/about-library/policies/librarian-governance">Library website</a>, you will be prompted to login using the last 11 digits of your ISU University ID (the last 11 digits of the number on your ISUCard), and the <a href="https://app.lib.iastate.edu/set_password.php">Library password you set</a>.</p>
-<p>Even if you do not have a physical ISUCard, you do have an ISU University ID number.&nbsp; If you don't remember that number, you can login to <a href="https://accessplus.iastate.edu/frontdoor/login.jsp">AccessPlus</a> and verify your University ID number there.&nbsp; Use the last 11 digits of that number (meaning, the 9 digit University ID plus the following 2-digit Security Code) as your Off-Campus (Borrower ID) login.</p>
-<p>Login questions or problems?&nbsp; Contact Circulation Desk staff: Phone (515) 294-3961 or email <a href="mailto:CircDesk@iastate.edu">CircDesk@iastate.edu</a></p>
-<p>See also the Library&rsquo;s <a href="http://instr.iastate.libguides.com/distance_learning">Distance Learning Support</a> (Links to an external site.)Links to an external site. guide for more information on access, how to find and search helpful databases, and how to get articles and books you need sent to you.</p>
-<p><a href="http://web.iastate.edu/students/">Info for students</a> provides a comprehensive list of support and services for students.</p>
-</div>
-<div id="fragment-6">
-<h3>Successful Online Learner</h3>
-<hr />
-<h3>To be successful online learner:</h3>
-<ul>
-<li>Take time to familiarize yourself with the course structure and layout in the learning management system being used such as Canvas or other technology used in the course.</li>
-<li>Read the essential documents &ndash; course syllabus/course schedule.</li>
-<li>Identify and establish the communication channels provided &ndash; Help Forums/online meetings/Email/groups discussion forums</li>
-<li>Confirm technical requirements &ndash;so that you can access all the materials</li>
-<li>Be patient and respectful of response time mentioned. Plan your time &ndash; have a personal schedule, a consistent study time and stay organized. DO NOT WAIT UNTIL THE LAST MOMENT TO WORK ON YOUR DELIVERABLES.</li>
-<li>Make connections with fellow classmates and the instructor. Ask Questions &ndash; Don&rsquo;t wait.</li>
-<li>Ask questions regarding expectations/content/policies. Follow the mentioned protocols for the course.</li>
-<li>Log-in to the course at least 3 times in a day.</li>
-</ul>
-</div>
-<div id="fragment-7">
-<h3>Help</h3>
-<hr />
-<div class="content-box">
-<div class="grid-row top-xs">
-<div class="col-xs-5">
-<div class="styleguide-section__grid-demo-element">
-<h4>Canvas and Other Technical Assistance</h4>
-<p><strong>Sample Questions</strong></p>
-<ul>
-<li>I cannot see my course. What do I do?</li>
-<li>I do not see any videos. What do I do?</li>
-<li>Where can I see my grades?</li>
-</ul>
-<p><strong>Email</strong></p>
-<ul>
-<li><a href="mailto:elotech@iastate.edu">elotech@iastate.edu</a></li>
-<li>Response time is 1 business day.</li>
-<li>Business hours are between 8:00 AM and 5:00 PM (CST).</li>
-</ul>
-<p><strong>Help Forum</strong></p>
-<ul>
-<li>Post your questions in the course Help Forum.</li>
-<li>Response time is 1 business day.</li>
-</ul>
-<p><strong>Canvas Tutorials</strong></p>
-<ul>
-<li><a href="https://community.canvaslms.com/community/help">Canvas Help and Support</a></li>
-</ul>
-</div>
-</div>
-<div class="col-xs-5">
-<h4 class="styleguide-section__grid-demo-element">Course Content Related Assistance</h4>
-<div class="styleguide-section__grid-demo-element"><strong>Sample Questions</strong></div>
-<ul>
-<li class="styleguide-section__grid-demo-element">What is the rubric for the discussions?</li>
-<li class="styleguide-section__grid-demo-element">Can you open the quiz?</li>
-<li class="styleguide-section__grid-demo-element">What are the guidelines for the final project?</li>
-</ul>
-<div class="styleguide-section__grid-demo-element"><strong>Help Forum</strong></div>
-<ul>
-<li class="styleguide-section__grid-demo-element">Post questions in the course Help Forum.</li>
-<li class="styleguide-section__grid-demo-element">Response time is 1 business day.</li>
-</ul>
-<div class="styleguide-section__grid-demo-element"><strong>Contact Instructor</strong></div>
-<ul>
-<li class="styleguide-section__grid-demo-element">Instructor's email</li>
-<li class="styleguide-section__grid-demo-element">Response time is 1 business day.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<hr />
-<p style="text-align: center;">&nbsp;<img style="float: left;" src="https://canvas.iastate.edu/courses/3421/files/3409818/download" alt="ISU-nameplate.png" width="300" height="22" data-api-endpoint="https://canvas.iastate.edu/api/v1/courses/3421/files/3409818" data-api-returntype="File" /></p>
-<p style="text-align: left;"><span style="font-size: 8pt;">Disclaimer about usage of course materials: The materials on this course website are only for the use of students enrolled in this course for purposes associated with this course and may not be further disseminated.&nbsp; The materials on this course website may be protected by copyright; any further use or distribution of this material may be in violation of federal copyright law.</span></p>
-</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
 </body>
-</html> 
+</html>
+

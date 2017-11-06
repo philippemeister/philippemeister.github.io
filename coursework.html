@@ -1,86 +1,111 @@
 <!DOCTYPE html>
 <html>
-<title>Philippe Meister</title>
+<title>Philippe Meister Coursework</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/styles.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
 </style>
-<body class="w3-light-grey">
+<body>
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="philippe-miller-post-2017-square.jpg" style="width:100%" alt="Photo of Philippe">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2 style="color: white;">Philippe Meister</h2>
-          </div>
-        </div>
-         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>PhD Student, Instruction Designer, Researcher</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Ames, IA</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>pmeister@iastate.edu</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>12628444052</p>
-          <p><a href="https://www.facebook.com/philippepmeister"><i class="fa fa-facebook-official fa-fw w3-margin-right w3-large w3-text-teal"></i></a>/philippepmeister</p>
-          <p><a href="https://twitter.com/PhilippeMeister"><i class="fa fa-twitter fa-fw w3-margin-right w3-large w3-text-teal"></i></a>@PhilippeMeister</p> 
-          <p><a href="https://www.linkedin.com/in/philippemeister/"><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i></a>/philippemeister</p>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-  
-    
-      <div class="w3-container w3-card-2 w3-white">
-<div class="w3-container w3-card-2 w3-white w3-margin-top w3-margin-bottom" style="padding-bottom:16px;">
-        <ul style="list-style-type:none; padding-top:-16px;">
-         <a style="text-decoration:none;float: left; display: block; padding: 1em; font-size:18px;" href="https://philippemeister.github.io/index"><li><b>Introduction</b></li></a>
-         <a style="text-decoration:none;float: left; display: block; padding: 1em; font-size:18px;" href="https://philippemeister.github.io/cv"><li><b>CV</b></li></a>
-         <a style="text-decoration:none;float: left; display: block; padding: 1em; font-size:18px;" href="https://philippemeister.github.io/portfolio"><li><b>Portfolio</b></li></a>
-         <a style="text-decoration:none;float: left; display: block; padding: 1em; font-size:18px;" href="https://philippemeister.github.io/coursework"><li><b>Coursework</b></li></a>
-           </ul>
-          <br>
-        </div>
-        <div class="w3-container w3-text-grey">
-          <p>English 500: Teaching Multimodal Composition</p> 
-          <p>English 501: Introduction to Research in Rhetoric, Composition, and Professional Communication</p> 
-          <p>English 506: Theory and Research in Professional Communication</p> 
-          <p>English 507: Writing and Analysis of Professional Documents</p>
-          <p>English 511: Introduction to Linguistic Analysis</p> 
-          <p>English 529: Content Management</p> 
-          <p>English 542: Document Design and Editing</p>
-          <p>English 547: History of Rhetorical Theory I: From Plato to Bacon</p> 
-          <p>English 548: History of Rhetorical Theory II: From Bacon to Present</p>
-          <p>English 586: Visual Rhetoric in Professional Communication</p> 
-          <p>English 631: Administration and Organization of Multimodal Writing Programs</p> 
-          <p>English 699: Master's Thesis Research</p> 
-          <p>Satistics 401: Statistical Methods for Research Workers in Social Science</p>
-          <p>Human Computer Interaction/Psychology 521: Cogntive Psychology for Human Computer Interaction</p>
-          <p>Human Computer Interaction 591: Seminar in Human Computer Interaction</p> 
-        </div>
-
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Philippe Meister</a>
   </div>
-  
-  <!-- End Page Container -->
 </div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+<br>
+  <a class="w3-bar-item w3-button w3-hover-black" href="index.html">Introduction</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="cv.html">CV</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="portfolio.html">Portfolio</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="coursework.html">Coursework</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Coursework</h1>
+      <h3>English</h3>
+       <p>Teaching Multimodal Composition</p> 
+          <p>Research in Rhetoric, Composition, and Professional Communication</p> 
+          <p>Theory and Research in Professional Communication</p> 
+          <p>Writing and Analysis of Professional Documents</p>
+          <p>Introduction to Linguistic Analysis</p> 
+          <p>Content Management</p> 
+          <p>Document Design and Editing</p>
+          <p>History of Rhetorical Theory I: From Plato to Bacon</p> 
+          <p>History of Rhetorical Theory II: From Bacon to Present</p>
+          <p>Visual Rhetoric in Professional Communication</p> 
+          <p>Administration and Organization of Multimodal Writing Programs</p> 
+          <p>Master's Thesis Research</p> 
+          <h3>Human Computer Interaction</h3>
+          <p>Cogntive Psychology for Human Computer Interaction</p>
+          <p>Seminar in Human Computer Interaction</p>
+          <h3>Statistics</h3>
+          <p>Statistical Methods for Research Workers in Social Science</p>
+           
+    </div>
+  </div>
+
+  
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2">
+    </div>
+    <div class="w3-container w3-theme-l1">
+    <br>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
 
 </body>
 </html>

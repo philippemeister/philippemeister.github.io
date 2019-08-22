@@ -1,120 +1,103 @@
 <!DOCTYPE html>
-<html>
-<title>Philippe Meister Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
-.w3-sidebar {
-  z-index: 3;
-  width: 250px;
-  top: 43px;
-  bottom: 0;
-  height: inherit;
-}
-</style>
-<body>
-
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">Philippe Meister</a>
-  </div>
-</div>
-
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
-    <i class="fa fa-remove"></i>
-  </a>
-<br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="index.html">Introduction</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="cv.html">CV</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="portfolio.html">Portfolio</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="course-history.html">Course History</a>
+<html> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Proftolio for Philippe Meister</title>
+</head>
+    
+<body data-spy="scroll" data-target="#navbar-site" data-offset="8rem">
+<nav class="navbar navbar-light bg-light navbar-expand-sm mb-4 fixed-top">
+    <div class="container">
+        
+        <a class="navbar-brand" href="index.html"> <img alt="Philippe Meister logo" src="images/pm.png"></a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+            <div class="navbar-nav">
+                <a class = "nav-item nav-link" href="index.html">Home</a>
+                <a class = "nav-item nav-link" href="resume.html">Resume</a>
+                <a class = "nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class = "nav-item nav-link" href="course-history.html">Course History</a>
+                <a class = "nav-item nav-link" href="contact.html">Contact</a>
+            </div> <!-- navbar-nav --> 
+        </div> <!-- navbar collapse --> 
+    </div> <!-- nav containter --> 
 </nav>
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<main style="margin-top:8rem">
+<div class="container"> 
+    <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <section class="card h-100">
+                <h3 class="card-header">Courselink</h3>
+                <div class="card-body">
+                    <p style="color:red">Portfolio Under Construction</p>
+                    <p class="card-text">Courselink is a professional development platform for college studnets. Its helps students track the knowledge, skills, and abilities they have learned in each course. And it allows them to use what they have learned to plan their career moves after college.</p>
+                    <img class="card-img-bottom" src="images/courselink-logo.png">
 
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-<div class="w3-main" style="margin-left:250px">
-
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h1 class="w3-text-teal">Portfolio</h1>
-  <div class="w3-container">
-    <p><a href="https://pbea.agron.iastate.edu">Web Content for Plant Breeding E-Learning in Africa</a>
-          <ul>
-          <li>This project in the ISU Department of Agronomy provides elearning content to schools do not have plant breeding specialists. Our team of about 10 administrators, developers, designers, and writers migrated content into Drupal LMS. I worked with the text, images, activities, and animiations</li> 
-           </p> 
-           <a href="onlinemastersofagronomy.png"><img src="onlinemastersofagronomy.png" alt="Online Masters of Agronomy Homepage" style="height:100px;padding-bottom:1em;"></a>
+                 </div>  
+            </section>
         </div>
-        <div class="w3-container">
-          <p>Staff Manual for Margaret Sloss Center
-          <ul>
-          <li>I compiled multiple documents with various formatting styles into a consistent, appealing, and clear manual that could be update and printed with readily available software.</li>
-          <p/>
-          <a href="screen-shot-2016-12-08-at-9-13-21-am.png"><img src="screen-shot-2016-12-08-at-9-13-21-am.png" alt="Staff Manual Cover" style="height:100px;padding-bottom:1em;"></a>
-          <a href="screen-shot-2016-12-08-at-9-13-32-am.png"><img src="screen-shot-2016-12-08-at-9-13-32-am.png" alt="Staff Manual Contents Page" style="height:100px;padding-bottom:1em;"></a>
-          <a href="screen-shot-2016-12-08-at-9-14-17-am.png"><img src="screen-shot-2016-12-08-at-9-14-17-am.png" alt="Staff Manual History of the House Page" style="height:100px;padding-bottom:1em;"></a>
-       </div>
-         <div class="w3-container">
-          <p><a href="Utilitarianism.epub" download>epub of <i>Untilitarianism</i></a>
-          <ul>
-          <li>I created an epub of <i>Utilitarianism</i>.</li>
-          </p> 
-          <a href="Utilitarianism.epub" download><img src="cover-page.png" alt="epub of Utilitarianism" style="height:100px;padding-bottom:1em;"></a>
-       </div>
-           </div>
-    </div>
-  </div>
+        
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <section class="card h-100">
+                <h3 class="card-header">Kitchen Builder</h3>
+                <div class="card-body">
+                    <p style="color:red">Portfolio Under Construction</p>
+                    <p class="card-text">Kitchen builder is a home design application that we used to test whether users like low- or high-fidelity graphics for their initial room-generation workflow in these types of applicaitons.</p>
+                    <img class="card-img-bottom" src="images/kitchen-builder.png">
+                </div>
+            </section>
+        </div>
 
- 
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <section class="card h-100">
+                <h3 class="card-header">PBEA</h3>
+                <div class="card-body">
+                    <p style="color:red">Portfolio Under Construction</p>
+                    <p class="card-text">We provide plant breeding elearning content to schools do not have plant breeding specialists. I edited elearning content for the program. I worked with the text, images, activities, and animiations.</p> 
+                    <a href="onlinemastersofagronomy.png" alt="Online Masters of Agronomy Homepage"> Master's Program Website</a>
+                    <img class="card-img-bottom" src="images/pbea_logo.png">
 
-  </div>
+                </div>
+            </section>
+        </div>
+        
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <section class="card h-100">
+                <h3 class="card-header">Sloss Center Manual</h3>
+                <div class="card-body">
+                    <p style="color:red">Portfolio Under Construction</p>
+                    <p class="card-text">I brought together the Center's documenmtation into one coherent, clear manual that could be update and printed with readily available software.<p/>
+                    <img class="card-img-bottom" src="images/mswc-cover.png" alt="Staff Manual Cover">
+                </div>
+            </section>
+        </div>
+        
+        <div class="col-sm-6 col-lg-4 mb-4">
+            <section class="card h-100">
+                      <h3 class="card-header"><i>Untilitarianism</i> EPUB</h3>
+                <div class="card-body">
+                    <p style="color:red">Portfolio Under Construction</p>
+                     <p class="card-text">I created an epub of <i>Utilitarianism</i>. The texts is in the public domain. I made a readable copy and distribute it online for readers.</p> 
+                    <img class="card-img-bottom" src="images/cover-page.png" alt="epub of Utilitarianism"> 
+                </div>
+            </section>
+        </div>
 
- <!--<footer id="myFooter">
-    <div class="w3-container w3-theme-l2">
-    </div>
-    <div class="w3-container w3-theme-l1">
-    <br>
-    </div>
-  </footer>-->
-
-<!-- END MAIN -->
-</div>
-
-<script>
-// Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
-
-// Get the DIV with overlay effect
-var overlayBg = document.getElementById("myOverlay");
-
-// Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-    if (mySidebar.style.display === 'block') {
-        mySidebar.style.display = 'none';
-        overlayBg.style.display = "none";
-    } else {
-        mySidebar.style.display = 'block';
-        overlayBg.style.display = "block";
-    }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-    overlayBg.style.display = "none";
-}
-</script>
-
+    </div> <!-- row --> 
+</div> <!-- container--> 
+</main>
+    
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
-</html>
-
+</html> 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Portfolio - Augmented Reality Weather Training</title>
+</head>
+    
+<body data-spy="scroll" data-target="#navbar-site" data-offset="8rem">
+<nav class="navbar navbar-light bg-light navbar-expand-sm mb-4 fixed-top">
+    <div class="container">
+        
+        <a class="navbar-brand" href="index.html"> <img alt="Philippe Meister logo" src="images/pm.png"></a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+            <div class="navbar-nav">
+                <a class = "nav-item nav-link" href="index.html">Home</a>
+                <a class = "nav-item nav-link" href="resume.html">Resume</a>
+                <a class = "nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class = "nav-item nav-link" href="course-history.html">Course History</a>
+                <a class = "nav-item nav-link" href="contact.html">Contact</a>
+            </div> <!-- navbar-nav --> 
+        </div> <!-- navbar collapse --> 
+    </div> <!-- nav containter --> 
+</nav>
+
+<main style="margin-top:8rem">
+    <div class="container"> 
+    <h1>Augmented Reality Weather Training</h1>
+        <p>Team: Michael Dorneich, Eliot Winer, Lori Brown, Geoff Whitehurst, Philippe Meister, Jack Miller, Kexin "Kate" Wang</p>
+    <h3>Executive Summary</h3>
+      <p>In general aviation, pilots encounter risky weather-related situations and are involved in accidents. The accidents mainly occur when pilots fly under visual flight rules (VFR) into instrumental meteorological conditions (IMC). The VFR-into-IMC accidents result in between 28 and 58 fatal accidents every year and monetary costs estimated at $1.64 billion in direct costs and $4.64 billion in indirect costs. We develop three-dimensional augmented reality/virtual reality (AR/VR) weather models and scenario-based activities to train student pilots to recognize and assess weather-related situations and make decisions.</p>
+    <h3>Domain</h3>
+      <p>General Aviation (GA) refers to all civilian flying in the United States except scheduled passenger airline service (AOPA). More than 90% of the 220,000 civil aircraft in the United States are GA aircraft. More than 80% of the 600,000 pilots in the United States fly general aviation airplanes. The professional association for these GA pilots, the Aircraft Owners and Pilots Association (AOPA), has nearly 400,000 members. In total, GA is a $20 billion a year industry that generates more than $150 billion in economic activity.</p>
+    <h3>Reserach Problem</h3>
+      <p>Adverse weather conditions are present in 35% of fatal GA accidents, of which 60% occur while instrument meteorological conditions are present (Fultz & Ashley, 2016). The majority of these accidents occur when GA pilots who are certified to fly under visual flight rules (VFR) fly into instrumental meteorological conditions (IMC) (Carney et al., 2015; Fultz & Ashley, 2016). The VFR-into-IMC accidents result in fatalities and monetary costs (Air Safety Institute, 2018; Fultz & Ashley, 2016). The annual number of fatal accidents ranges between 28 and 58, with even higher numbers of fatalities (Air Safety Institute, 2012, 2018). The annual estimated costs are a direct cost of $1.64 billion and an indirect cost of $4.64 billion (Sobieralski, 2013).</p>    
+    <h3>Preliminary Concept</h3>
+     <p>The research team is currently working on training that helps student pilots practice responding to weather situations. The research team (along with others) uses three-dimensional augmented reality and/or virtual reality (AR/VR) content to enhance weather training (Dorneich et al., 2020). The work will produce 3D AR/VR thunderstorm models, which enhance how pilots acquire spatial knowledge thunderstorms, and AR/VR scenario-based activities, which provide opportunities for pilots to use their newly acquired knowledge of thunderstorms to practice recognizing and assessing weather-related situations and making weather-related decisions.</p>        
+        <h3>Design</h3>
+        <p>The best concept from the Harris profile was prototyped and tuned to meet a high enough fidelity in order to test its function in the lab. We named the design the Snow Stomper to signify that it is a removal tool that uses foot-action to lift the snow. The design includes the desirable features from the single swivel shovel, which include foot-powered lifting, and a wheeled support structure.</p>
+        <div class="container text-center">
+        <figure>
+            <img src="images/snow-stomper-design-labeled.png" alt="snow stomper with labels for handle, foot lever, fulcrum, and shovel" class="img-fluid">
+            <figcaption class="figure-caption text-center">Figure 5 Snow Stomper</figcaption>
+        </figure>
+        </div>
+        <div class="container text-center">
+        <figure>
+            <img src="images/snow-stomper-foot-lever.png" alt="snow stomper with labels for handle, foot lever, fulcrum, and shovel" class="img-fluid">
+            <figcaption class="figure-caption text-center">Figure 6 Snow Stomper foot lever</figcaption>
+        </figure>
+        </div>
+
+        <h3>Testing</h3>
+        <h4>Participants</h4>
+        <h4>Materials</h4>
+        <h4>Procedure</h4>
+        
+        <h4>Hyphotheses</h4>
+        <h3>Results</h3>
+        <h3>References</h3>
+        <p>
+        <ul>
+            
+            <li>coming soon</li>
+
+        </ul>
+    </div>
+</main>
+    
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html> 

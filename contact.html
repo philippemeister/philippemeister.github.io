@@ -36,34 +36,36 @@
 <main style="margin-top:8rem">
     <div class="container">
     <h1 class="display-3">Contact</h1>
-    <p style="color:red">Form Under Construction. Email me at pmeister@iastate.edu or call me at 262-844-4052.</p>
 
-        <form>
+        <form action="https://formspree.io/f/xleowlnv" method="POST">
+            
             <fieldset class="form-group">
                 <div class="form-group row form-row">
                     <label class="col-form-label text-md-right col-md-2" for="writerName">Name</label>
                     <div class="col-md-10">
-                        <input class="form-control" type="text" id="writerName">
+                        <input class="form-control" type="text" name="name" id="name">
                     </div>
                 </div> <!-- form group-->
 
                 <div class="form-group row form-row">
                     <label class="col-form-label text-md-right col-md-2" for="writerEmail">Email</label>
                     <div class="col-md-10">
-                        <input class="form-control" type="email" id="writeremail" aria-describedby="emailHelp" placeholder="username@domain.com">
+                        <input class="form-control" type="email" name="_replyto" id="email" aria-describedby="emailHelp" placeholder="username@domain.com">
                     </div>
                 </div> <!-- form group-->
 
                 <div class="form-group row form-row">
                     <label class="col-form-label text-md-right col-md-2" for="writerMessage">Message</label>
                     <div class="col-md-10">
-                        <textarea class="form-control" rows="5" id="writerMessage" placeholder="Hi Philippe, ..."></textarea>
+                        <textarea class="form-control" rows="5" name="message" id="message" placeholder="Hi Philippe, ..."></textarea>
                     </div>
                 </div>
-            </fieldset><!--fieldset--> 
-            <!-- 
-<button class="btn btn-primary" type="submit">Submit</button> 
-            --> 
+            </fieldset><!--fieldset-->
+            
+            <div class="text-ri text-md-right col-md-12">
+                <button class="btn btn-primary" type="submit">Submit</button> 
+            </div>
+
         </form>
     </div><!-- content container -->
 </main>

@@ -1,2 +1,2 @@
 # philippemeister.github.io
-Professional website for Philipe Meister. 
+Professional website for Philippe Meister. 

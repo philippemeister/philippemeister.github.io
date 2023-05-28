@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Insured Portal Discovery Research - Philippe Meister's Porfolio</title>
+</head>
+    
+<body data-spy="scroll" data-target="#navbar-site" data-offset="8rem">
+<nav class="navbar navbar-light bg-light navbar-expand-sm mb-4 fixed-top">
+    <div class="container">
+        
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+            <div class="navbar-nav">
+                <a class = "nav-item nav-link" href="index.html">&larr; Back to portfolio</a>
+            <!-- <a class = "nav-item nav-link" href="resume.html">Resume</a>
+                <a class = "nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class = "nav-item nav-link" href="course-history.html">Course History</a>
+                <a class = "nav-item nav-link" href="contact.html">Contact</a> -->
+            </div> <!-- navbar-nav --> 
+        </div> <!-- navbar collapse --> 
+    </div> <!-- nav containter --> 
+</nav>
+
+<main style="margin-top:8rem">
+    <div class="container"> 
+    <h1>Preliminary Intranet Accessibility Evaluation</h1>
+        <p>The work is summarized below. More detail is available upon request.</p>
+    <h2>Introduction</h2>
+        <p>Accessibility has not historically been a focus of the software development at IMT. IMT asked me to conduct a preliminary (non-user) accessibility evalaution on the intranet. The objective of the evaluation was to identify improvements to the intranet to make it more accessible for users who may use keyboard navigation and screen readers.</p>
+    <h2>Approach</h2>
+        <p>The approach was to conduct a "quick and dirty" accessibility evaluation as described by <a href=https://inviqa.com/blog/accessibility-audits-how-do-quick-and-dirty-audit>Bulygina</a></p>
+        <p>The method includes the following steps:</p>
+            <ul>
+                <li>Titles. Check that page titles are present and provided the needed information.</li>
+                <li>Images. Turn off images and use the page. Check for missing information. Check alt text for needed information.</li>
+                <li>Sound. Turn off the sound and use the page. Check whether the needed information is transmitted in modes other than sound.</li>
+                <li>Contrast. Test color contrast. Check grayscale, colorblindness.</li>
+                <li>Navigation. Navigate the site with only keyboard. Check whether you can navigate to all buttons and text, complete all forms, interact with all interactive elements. Check whether there are focus states.</li>
+                <li>Sizing. Zoom in and use the page. Check whether site is still usable with text resize of 200-400% larger than default size.</li>
+                <li>Page structure and hierarchy. View the code and check whether the heading and tag structure is logical and usable.</li>
+                <li>Multimedia. View the multimedia and check whether there are alternatives for the audio and video. Are there transcripts, captions?</li>
+            </ul>
+
+    <h2>Results and recommendations</h2>
+        <p>A 14-item list of reccomendations was drafted and shared with developers and management. An abbreviated form of the reccomendations are presented below:</p>
+            <ul>
+                <li>Titles. Revise naming structure for page titles from “IMT Intranet – Title” to “Title – IMT Intranet” </li>
+                <li>Color Contrast. Improve numerous instances of color contrast by implimenting solutions from the color contrast report (see seperate project).</li>
+                <li>Navigation. Provide users with the section-level context for the "view all" links</li>
+                <li>Navigation. Make the department dropdown element keyboard navigable.</li>
+                <li>Navigation. Improve visual percievability of focus states for non-screen reader users</li>
+                <li>Page structure. Add descriptive text to the logo so users know the link destination</li>
+                <li>Page structure. Add a language attribute to the header</li>
+                <li>Page structure. For emptuy buttons, place content within the button element or give the input element a value attribute</li>
+                <li>Page structure. Properly assocate form labels with form controls</li>
+                <li>Page structure. Modify the header search fieldset</li>
+                <li>Page structure. Make the heading progression smooth through H1, H2, h3.</li>
+                <li>Page structure. Check whether the footer heading should be a heading instead of a paragraph</li>
+            </ul>
+                
+    </div>
+</main>
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html> 

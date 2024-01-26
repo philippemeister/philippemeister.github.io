@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Accessibility Test of the Public Website - Philippe Meister's Porfolio</title>
+</head>
+    
+<body data-spy="scroll" data-target="#navbar-site" data-offset="8rem">
+<nav class="navbar navbar-light bg-light navbar-expand-sm mb-4 fixed-top">
+    <div class="container">
+        
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+            <div class="navbar-nav">
+                <a class = "nav-item nav-link" href="index.html">&larr; Back to portfolio</a>
+            <!-- <a class = "nav-item nav-link" href="resume.html">Resume</a>
+                <a class = "nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class = "nav-item nav-link" href="course-history.html">Course History</a>
+                <a class = "nav-item nav-link" href="contact.html">Contact</a> -->
+            </div> <!-- navbar-nav --> 
+        </div> <!-- navbar collapse --> 
+    </div> <!-- nav containter --> 
+</nav>
+
+<main style="margin-top:8rem">
+    <div class="container"> 
+    <h1>Accessibility Testing the Public Website</h1>
+        <p>A brief summary of the work is provided below. More detail is available upon request.</p>
+        <h2>Introduction</h2>
+        <p>I conducted a accessiblity test on the IMT Insurance public website. The objective was to identify aspects of the site that were not in conformance with the Web Content Accessibility Guidelines (WCAG).</p>
+    <h2>Approach</h2>
+        <p>The test was conducted using a blend of the WCAG Evaluation Methodology (WCAG-EM) and the Section 508 Trusted Tester process. The tests were conducted with WCAG 2.0 and the conformance target was Level AA. A representative sample of the website which included essential functionality and random pages was taken, including 11 pages: </p>
+        <ul>
+            <li>Landing page</li>
+            <li>Personal Insurance</li>
+            <li>Peraonl Auto</li>
+            <li>About IMT</li>
+            <li>IMT Blog</li>
+            <li>Current Opportunities</li>
+            <li>Contact Us</li>
+            <li>Search Results</li>
+            <li>Find an agent</li>
+            <li>Make a payment</li>
+            <li>Mission Statement, Vision, Values</li>
+        </ul>
+    <h2>Results</h2>
+        <p>The 41 criteria assessed were rated as pass, fail, or does not apply. The failing criteria are briefly summarized below:</p>
+            <ul>
+                <li>Keyboard Access and Focus: On the Personal Auto page, two links fail because they are not in the tab order.</li>
+                <li>Keyboard Access and Focus: On the Currrent Opportunities page, the search button fails because it does not have a visual indication of focus.</li>
+                <li>Forms: On the Current Opportunities page, the filters do not have visual lables.</li>
+                <li>Forms: On the Contact Us page, the instructions that explain an * indicates a required form field should be presented before the form inputs.</li>
+                <li>Forms: On the Search Results page, the search bar does not have a form label, search icon, or serach button to visually indicate it is a search bar. </li>
+                <li>Froms: On the Find an Agent page, the form does not validate the state and it does not provide instruction on how to correct a state error.</li>
+                <li>Links and Buttons: On the About IMT page, the body text has two buttons where the labeling does not clearly indicate that they will both open the "Find an Agent" modal".</li>
+                <li>Images: On the Landing, Personal Insurance, Personal Auto, and About IMT pages, there are decorative images that have alt text but should have blank alt text.</li>
+                <li>Repetitive Content: On all pages, there is no method to bypass repetiive content (without the use of Accessibe).</li>
+            </ul>
+                
+    </div>
+</main>
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html> 

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/images/p-solid.svg">
+
+    <title>Accessibility testing - Philippe Meister's Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/bootstrap-4.0.0/docs/4.0/examples/album/album.css" rel="stylesheet">
+      
+    <!-- Customer Styles from Philippe --> 
+      <link href="/css/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">I am a user experience (UX) researcher and designer with five years of research and design experience. My focus is making digital systems effective, efficient, and satisfactory. I use established methods and best practices to increase confidence in the process and the design. You can view my research publication history on Google Scholar and my work history on LinkedIn.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://scholar.google.com/citations?user=cFxh5h0AAAAJ&hl=en" class="text-white">Google Scholar</a></li>
+                <li><a href="https://www.linkedin.com/in/philippemeister/" class="text-white">LinkedIn</a></li>
+                <li><a href="mailto:meister.philippe@gmail.com" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <strong>Philippe Meister's Portfolio</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Accessiblity Testing the IMT Insurance Public Website</h1>
+          <p class="lead text-muted">An example of my work accessibility testing web servies.</p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+            <h2>Introduction</h2>
+            <p>The IMT Insurance Public website provides basic information about the company to independent insurance agencies and our insureds. I observed efforts to improve the accessibility of the site and add an accessibility tool (AccessiBe). These efforts fell short of a systematic solution. I began looking for a more comprehensive way to integrate accessibility into the design and development processes.</p>
+            <h2>Methods</h2>
+            <p>I searched for more systematic accessibility methods and found the Department of Homeland Security (DHS) Section 508 "Trusted Tester" Conformance Testing process. This process provides a minimum baseline for those who conduct accessibility testing on software that is required to be Section 508 compliant. The DHS provides free training and tools to conduct the testing. I completed the training and conducted the test on the public website.</p>
+            <h2>Results</h2>
+            <p>The test found that the site conformed with 27 of 41 guidelines. I developed design guidance to address every instance of non-conformance on the site. For example, the guidance for global changes to all pages of the site included the following:</p>
+<ol>
+    <li>Implement a method for users to bypass repeated content. The guideline 2.4.1 requires a method for users to bypass repeated content (e.g., main navigation menus). Without AccessiBe, there is no method to skip to repeated content.</li>
+    <li>Implement a search button on the search bar on the mobile and desktop layouts. The guideline 3.3.2 requires form fields to have visual labels. The search bar has no visual label on mobile layout when a user is typing in the search bar. On desktop layout the search bar drops down beneath the magnifying glass, which makes them appear less directly associated with one another.</li>
+    <li>Change the alt text on decorative images to blank (alt = “”). The guideline 1.1.1 requires decorative images to have blank at text. There are images on cards and on the content pages that are decorative, but they have alt text.</li>
+            </ol>
+    <h2>Discussion</h2>
+    <p>I worked with leaders to bring the site into conformance and integrate the design guidance into the design system improve conformance of new systems throughout the design and development process. The company now has a method to conduct reliable accessibility conformance testing on existing systems and on new systems during the development process. This is one example of how I improved internal processes to help improve or “mature” the UX function within the company.</p>
+
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap-4.0.0/js/tests/vendor/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.0.0/assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>
